@@ -1,0 +1,126 @@
+/* 
+.inter-<uniquifier> {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+
+.sora-<uniquifier> {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo__span {
+  color: #5C6FD9;
+}
+
+.comprar-ebook {
+  background-color: transparent;
+  color: #fff;
+  border: solid 2px;
+  border-color: #5C6FD9;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tiles {
+  padding-bottom: 80px;
+}
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  width: 380px;
+  white-space: normal;
+}
+
+h2 {
+  font-size: 16px;
+  color: #5C6FD9;;
+}
+
+.inputs label {
+  text-align: left;
+  margin-left: 40px;
+}
+
+form p {
+  align-items: center;
+  font-size: 14px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #6a5acd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 300px;
+}
