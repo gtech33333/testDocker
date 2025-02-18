@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Docker</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-    </style>
+    <title>Newsletter eFront</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Funcionando! 🚀</h1>
-    <p>Se você está vendo esta página, seu ambiente está configurado corretamente!</p>
+    <header>
+        <div class="logo"><span class="logo__span">e</span>Front</div>
+        <button class="comprar-ebook">COMPRAR EBOOK</button>
+    </header>
+    <main>
+        <div class="tiles">
+            <h1>Seja bem-vindo a sua melhor newsletter</h1>
+            <h2>Fique por dentro de todas as novidades</h2>
+        </div>
+        <form>
+            <p>Preencha os campos para receber as notícias sobre programação</p>
+            <div class="inputs">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
 </body>
 </html>
